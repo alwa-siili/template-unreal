@@ -22,6 +22,7 @@ limitations under the License.
 #include "TbSimple/Generated/Jni/TbSimpleJniConnectionStatus.h"
 #include <memory>
 #include "Misc/Guid.h"
+#include "HAL/Platform.h"
 
 #if PLATFORM_ANDROID
 

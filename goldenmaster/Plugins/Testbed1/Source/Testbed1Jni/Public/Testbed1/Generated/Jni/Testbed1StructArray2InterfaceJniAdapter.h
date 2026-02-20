@@ -20,6 +20,7 @@ limitations under the License.
 #include "Testbed1/Generated/Jni/Testbed1JniConnectionStatus.h"
 #include "Subsystems/GameInstanceSubsystem.h"
 #include <memory>
+#include "HAL/Platform.h"
 
 #if PLATFORM_ANDROID
 

@@ -28,13 +28,12 @@ limitations under the License.
 #include "Misc/DateTime.h"
 #include "Misc/Optional.h"
 #include "HAL/Platform.h"
-#include "TbSame1/Generated/api/TbSame1_data.h"
 
 #include "Generated/Detail/TbSame1ThreadingHelper.h"
 #include "Generated/Detail/TbSame1CommonJavaConverter.h"
 
 #if PLATFORM_ANDROID
-
+#include "TbSame1/Generated/api/TbSame1_data.h"
 #include "Engine/Engine.h"
 #include "Android/AndroidJNI.h"
 #include "Android/AndroidApplication.h"

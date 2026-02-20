@@ -29,14 +29,13 @@ limitations under the License.
 #include "Misc/Optional.h"
 #include "HAL/Platform.h"
 
-#include "CustomTypes/Generated/Jni/CustomTypesDataJavaConverter.h"
-#include "ExternTypes/Generated/Jni/ExternTypesDataJavaConverter.h"
-
 #include "Generated/Detail/CounterThreadingHelper.h"
 #include "Generated/Detail/CounterCommonJavaConverter.h"
 
 #if PLATFORM_ANDROID
 
+#include "CustomTypes/Generated/Jni/CustomTypesDataJavaConverter.h"
+#include "ExternTypes/Generated/Jni/ExternTypesDataJavaConverter.h"
 #include "Engine/Engine.h"
 #include "Android/AndroidJNI.h"
 #include "Android/AndroidApplication.h"

@@ -22,6 +22,7 @@ limitations under the License.
 #include "Testbed1/Generated/Jni/Testbed1JniConnectionStatus.h"
 #include <memory>
 #include "Misc/Guid.h"
+#include "HAL/Platform.h"
 
 #if PLATFORM_ANDROID
 

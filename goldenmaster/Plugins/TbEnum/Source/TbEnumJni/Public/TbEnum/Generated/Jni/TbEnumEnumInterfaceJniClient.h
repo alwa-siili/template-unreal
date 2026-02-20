@@ -22,6 +22,7 @@ limitations under the License.
 #include "TbEnum/Generated/Jni/TbEnumJniConnectionStatus.h"
 #include <memory>
 #include "Misc/Guid.h"
+#include "HAL/Platform.h"
 
 #if PLATFORM_ANDROID
 

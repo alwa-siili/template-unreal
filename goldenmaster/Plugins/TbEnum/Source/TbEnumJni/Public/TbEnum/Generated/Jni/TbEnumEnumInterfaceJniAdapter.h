@@ -20,6 +20,7 @@ limitations under the License.
 #include "TbEnum/Generated/Jni/TbEnumJniConnectionStatus.h"
 #include "Subsystems/GameInstanceSubsystem.h"
 #include <memory>
+#include "HAL/Platform.h"
 
 #if PLATFORM_ANDROID
 

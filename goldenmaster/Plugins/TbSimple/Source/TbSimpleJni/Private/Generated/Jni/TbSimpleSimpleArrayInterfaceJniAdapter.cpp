@@ -33,7 +33,6 @@ limitations under the License.
 #include "Generated/Detail/TbSimpleCommonJavaConverter.h"
 
 #if PLATFORM_ANDROID
-
 #include "Engine/Engine.h"
 #include "Android/AndroidJNI.h"
 #include "Android/AndroidApplication.h"

@@ -22,6 +22,7 @@ limitations under the License.
 #include "Counter/Generated/Jni/CounterJniConnectionStatus.h"
 #include <memory>
 #include "Misc/Guid.h"
+#include "HAL/Platform.h"
 
 #if PLATFORM_ANDROID
 
